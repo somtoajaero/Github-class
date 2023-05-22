@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            margin-top: 3rem;
+        }
+        .box1{
+            background-color: pink;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-delay: 0s;
+            transition-timing-function: ease-in-out;
+        }
+        .box1:hover{
+            transform: translate(900px, 0px);
+            background-color:hotpink ;
+        }
+        .box2{
+            background-color: yellow;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-delay: 0s;
+            transition-timing-function: ease-in-out;
+        }  
+        .box2:hover{
+            transform: rotate(90deg);
+            background-color: blue;
+        }
+       
+        .box3{
+            background-color: purple;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-delay: 0s;
+            transition-timing-function: ease-in-out;
+           
+        }
+        .box3:hover{
+            transform: skew(30deg);
+            background-color: crimson;
+
+        }
+        .box4{
+            background-color: hotpink;
+            transition-property: all;
+            transition-duration: 3s;
+            transition-delay: 0s;
+            transition-timing-function: ease-in-out;
+           
+        }
+        .box4:hover{
+            transform: scale(2);
+            background-color: orchid;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box1 box"></div>
+    <div class="box2 box"></div>
+    <div class="box3 box"></div>
+    <div class="box4 box"></div>
+
+</body>
+</html>
